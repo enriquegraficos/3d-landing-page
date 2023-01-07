@@ -1,0 +1,107 @@
+.container-slider{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+.container-slider .container-img-slider{
+    width: 793px;
+    height: 600px;
+}
+
+.container-slider .text-slider h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    margin-bottom: 30px;
+
+   
+}
+
+.container-slider .text-slider .container-texts{
+    max-width: 700px;
+    min-width: 200px;
+}
+
+.container-slider .text-slider .text-purple{
+    color: var(--purple);
+}
+
+.container-slider .text-slider p{
+    font-size: 20px;
+    color: #52575C;
+    margin-bottom: 60px;
+}
+
+.container-slider .input-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 511px;
+    background-color:white;
+    height:58px ;
+    border-radius: 30px;
+    filter: drop-shadow(7px 11px 15px rgba(0, 0, 0, 0.15));
+    
+}
+
+.container-slider .input-container:hover{
+    border: 2px solid var(--purple);
+}
+
+.container-slider .input-container input{
+    background: white;
+    border: 0px;
+    outline: none;
+    width: 100%;
+    margin-left: 30px;
+       
+}
+.download{
+    background: linear-gradient(87.86deg, #EC74E7 -45.12%, #8468F5 74.37%);
+    border: 0px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 155px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    padding-left: 5px;
+}
+
+
+.download img{
+    margin-right: 5px;
+}
+
+
+
+.download:hover{
+    /* background: none;
+    color: var(--purple);
+    font-size: 16px;
+    border: 2px solid var(--purple); */
+    transition: transform 0.2s ease;
+}
+
+
+@media only screen and (max-width: 755px) {
+    .container-slider .container-img-slider {
+      display: none;
+    }
+    .container-slider{
+        margin-bottom: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+}

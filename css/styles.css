@@ -1,0 +1,25 @@
+@import url(./header.css);
+@import url(./slider.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+:root{
+    --gradiantPrimary: linear-gradient(250.46deg, #8468F5 72.09%, #EC74E7 352.57%);
+    --gradiantBackground:linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%);
+    --purple:#8468F5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+html{
+    /* background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%); */
+    background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%) no-repeat;
+    height: 100vh;
+}
