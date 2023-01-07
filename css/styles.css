@@ -5,7 +5,7 @@
 
 :root{
     --gradiantPrimary: linear-gradient(250.46deg, #8468F5 72.09%, #EC74E7 352.57%);
-    --gradiantBackground:linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%);
+    --gradiantBackground:linear-gradient(244.75deg, #DED6FF -10.92%, #F3E2E8 38.7%, rgba(247, 236, 240, 0.949351) 76.13%, #FFFFFF 110.9%);
     --purple:#8468F5;
 }
 
@@ -20,6 +20,6 @@
 
 html{
     /* background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%); */
-    background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%) no-repeat;
+    background: linear-gradient(244.75deg, #DED6FF -10.92%, #F3E2E8 38.7%, rgba(247, 236, 240, 0.949351) 76.13%, #FFFFFF 110.9%) no-repeat;
     height: 100vh;
 }

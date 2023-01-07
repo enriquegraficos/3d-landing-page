@@ -149,7 +149,7 @@ header .container-menu  .quote{
     display: block;
     width: 100%;
     height: 5px;
-    background-color:var(--purple);
+    background-color:white;
     margin: 6px 0px;
     transition: 0.4s;
 }
@@ -169,7 +169,11 @@ header .container-menu  .quote{
 }
 
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 775px) 
+{
+    header{
+        background: var(--purple);
+    }
     header .logo-container{
         display: none;
      }
