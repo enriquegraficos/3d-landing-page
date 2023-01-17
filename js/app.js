@@ -45,7 +45,15 @@ document.addEventListener('DOMContentLoaded', function(){
         setTimeout(() =>{
             spinner.classList.add('container-spinner');
             resetFormulario();
-            
+            // alerta
+            const alertaExito = document.createElement('P');
+            alertaExito.classList.add('alerta');
+            alertaExito.textContent ='Mensaje enviado correctamente';
+            inputContainer.appendChild(alertaExito);
+
+            setTimeout(()=> {
+                alertaExito.remove();
+            }, 3000);
         }, 3000)
        
     }
