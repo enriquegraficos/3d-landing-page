@@ -70,12 +70,25 @@
                     <p>Lorem ipsum is placeholder text commonly used in the
                         graphic, print, and publishing industries</p>
                 </div>
-                <div class="input-container">
-                    <input type="text" placeholder="Your email address">  
-                    <button class="download">
-                        Download
-                        <img src="./img/descarga.png" alt="descargar">
-                    </button>
+
+                <form id="formulario">
+                        <input type="text" placeholder="Your email address" id="email">  
+                        <button type="submit" class="download opacity" disabled>
+                            Enviar
+                            <!-- <img src="./img/descarga.png" alt="descargar"> -->
+                        </button>
+                
+                </form>
+                <div class="container-spinner" id="spinner">
+
+                    <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                      </div>
                 </div>
                          
             </section>
