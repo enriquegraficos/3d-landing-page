@@ -35,6 +35,11 @@
     margin-bottom: 60px;
 }
 
+.alerta{
+    color: var(--purple);
+    font-size: 15px;
+    margin: 10px;
+}
 .container-slider #formulario{
     display: grid;
     grid-template-columns: 2fr 1fr;
